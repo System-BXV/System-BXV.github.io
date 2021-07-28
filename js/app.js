@@ -1,7 +1,7 @@
 // 表格相册
 $("table")
   .has("img")
-  .addClass("darkmoe-album");
+  .addClass("nexmoe-album");
 
 // 搜索
 function search() {
