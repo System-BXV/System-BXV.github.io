@@ -62,3 +62,17 @@ a.st-ui-result::before {
     background-color: rgb(6, 40, 51) !important;
 }
 */
+/*中间放大镜关键字高亮*/
+div.st-ui-injected-overlay-container section.st-ui-no-results .st-ui-type-heading a, section.st-ui-no-results .st-ui-type-heading a {
+    color: rgb(53, 160, 249) !important;
+    text-decoration-color: currentcolor;
+}
+/*二次搜索中间放大镜整体*/
+div.st-ui-injected-overlay-container section.st-ui-no-results .st-ui-type-heading, section.st-ui-no-results .st-ui-type-heading {
+    color: rgb(169, 162, 151) !important;
+    background-color: rgb(24, 26, 27) !important;
+}
+/*首次搜索中间放大镜整体*/
+.st-ui-injected-overlay-container .st-ui-content .st-ui-fallback {
+    background-color: rgb(24, 26, 27) !important;
+}
