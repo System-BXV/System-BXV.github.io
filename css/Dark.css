@@ -1,0 +1,64 @@
+/*Valine 头像边框*/
+.v[data-class=v] .vcards .vcard .vimg {
+ width:3.125em;
+ height:3.125em;
+ float:left;
+ border-radius:50%;
+ margin-right:.7525em;
+ border:1px solid #f5f5f5;
+ border-color: rgb(51, 55, 57) !important;
+ padding:.125em
+}
+/*滑动条*/
+* {
+    scrollbar-color: #454a4d #202324 !important;
+}
+/*搜索列表*/
+/*低框*/
+.st-ui-injected-overlay-container .st-ui-footer {
+    border-top-color: rgba(140, 130, 115, 0.1) !important;
+    background-color: rgb(27, 29, 30) !important;
+    background-image: none;
+}
+/*上框文字*/
+.st-ui-injected-overlay-container .st-ui-header input[type="text"] {
+    background-color: transparent;
+    background-image: none;
+    border-color: currentcolor;
+    outline-color: currentcolor;
+    color: rgb(188, 183, 174) !important;
+}
+/*上框*/
+.st-ui-injected-overlay-container .st-ui-header {
+    border-bottom-color: rgba(140, 130, 115, 0.1) !important;
+    background-color: rgb(27, 29, 30) !important;
+    background-image: none;
+}
+/*中框*/
+.st-ui-injected-overlay-container {
+    background-color: rgb(24, 26, 27) !important;
+    background-image: none;
+}
+/*内容边线*/
+a.st-ui-result {
+    border-bottom-color: rgb(42, 55, 71) !important;
+    text-decoration-color: currentcolor;
+}
+/*内容右纽*/
+a.st-ui-result::before {
+    border-color: rgb(47, 64, 82) !important;
+}
+/*内容标题颜色 后端修改
+.st-install-随机ID .st-ui-result .st-ui-type-heading {
+    color: rgb(54, 182, 255) !important;
+}
+*/
+/*内容颜色*/
+.st-ui-type-detail {
+    color: rgb(169, 162, 151) !important;
+}
+/*高亮颜色 后端修改
+.st-install-随机ID .st-ui-result em {
+    background-color: rgb(6, 40, 51) !important;
+}
+*/
